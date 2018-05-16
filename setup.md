@@ -12,7 +12,7 @@ In preparation for this lesson, you will need to download a zip file of data.
 If there are already files in `C:\Work`, just go ahead and delete them first.
 
 2. Extract the contents of the zip file (right click, Extract All).
-Double clicking on the file simply previews the files - it doesn't extract them.
+Double clicking on the zip file simply previews the contents --- it doesn't extract them.
 	![](../fig/extract.png)
 
 3. If all goes well, you should see a `data` folder within your extracted folder.
@@ -30,6 +30,7 @@ to start the notebook server:
 5. Then create a new notebook using the drop-down menu on the right to select 'Python 3 notebook':
 	![](../fig/new-notebook.png)
 
+6. **Do not close the Anaconda prompt!** Doing so will kill your notebook server.
 
 # Linux instructions
 
