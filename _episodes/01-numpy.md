@@ -35,7 +35,7 @@ keypoints:
 In this lesson we will learn how to manipulate the inflammation dataset with Python. But before we discuss how to deal with many data points, we will show how to store a single value on the computer.
 
 
-The line below [assigns](reference.html#assignment) the value `55` to a [variable](reference.html#variable) `weight_kg`:
+The line below [assigns]({{ page.root }}/reference/#assign) the value `55` to a variable `weight_kg`:
 
 ~~~
 weight_kg = 55
@@ -44,7 +44,7 @@ weight_kg = 55
 
 A variable is just a name for a value,
 such as `x_val`, `current_temperature`, or `subject_id`.
-Python's variables must begin with a letter and are [case sensitive](reference.html#case-sensitive).
+Python's variables must begin with a letter and are [case sensitive]({{ page.root }}/reference/#case-sensitive).
 We can create a new variable by assigning a value to it using `=`.
 When we are finished typing and press Shift+Enter,
 the notebook runs our command.
@@ -155,11 +155,11 @@ Words are useful,
 but what's more useful are the sentences and stories we build with them.
 Similarly,
 while a lot of powerful, general tools are built into languages like Python,
-specialized tools built up from these basic units live in [libraries](reference.html#library)
+specialized tools built up from these basic units live in [libraries]({{ page.root }}/reference/#library)
 that can be called upon when needed.
 
 In order to load our inflammation data,
-we need to access ([import](reference.html#import) in Python terminology)
+we need to access ([import]({{ page.root }}/reference/#import) in Python terminology)
 a library called [NumPy](http://docs.scipy.org/doc/numpy/ "NumPy Documentation").
 In general you should use this library if you want to do fancy things with numbers,
 especially if you have matrices or arrays.
@@ -193,15 +193,15 @@ array([[ 0.,  0.,  1., ...,  3.,  0.,  0.],
 ~~~
 {: .output}
 
-The expression `numpy.loadtxt(...)` is a [function call](reference.html#function-call)
-that asks Python to run the [function](reference.html#function) `loadtxt` which belongs to the `numpy` library.
-This [dotted notation](reference.html#dotted-notation) is used everywhere in Python
+The expression `numpy.loadtxt(...)` is a [function call]({{ page.root }}/reference/#function-call)
+that asks Python to run the [function]({{ page.root }}/reference/#function) `loadtxt` which belongs to the `numpy` library.
+This [dotted notation]({{ page.root }}/reference/#dotted-notation) is used everywhere in Python
 to refer to the parts of things as `thing.component`.
 
-`numpy.loadtxt` has two [parameters](reference.html#parameter):
+`numpy.loadtxt` has two [parameters]({{ page.root }}/reference/#parameter):
 the name of the file we want to read,
-and the [delimiter](reference.html#delimiter) that separates values on a line.
-These both need to be character strings (or [strings](reference.html#string) for short),
+and the [delimiter]({{ page.root }}/reference/#delimiter) that separates values on a line.
+These both need to be character strings (or [strings]({{ page.root }}/reference/#string) for short),
 so we put them in quotes.
 
 Since we haven't told it to do anything else with the function's output,
